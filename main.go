@@ -13,5 +13,5 @@ func main() {
 	// bring up route
 	r := routes.SetupRouter()
 	r.Run(":8080")
-        fmt.println("hello!")
+        fmt.println("hello world!")
 }
